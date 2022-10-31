@@ -23,4 +23,24 @@ img {
 
 * {
   box-sizing: border-box;
+}
+
+.superinfo-bg {
+  background: #122ab2;
+  color: white;
+}
+.superinfo-bg a {
+  color: white;
+}
+.superinfo-bg .superinfo {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+.superinfo-bg .superinfo p, .superinfo-bg .superinfo a {
+  margin: 0 10px 10px 10px;
 }/*# sourceMappingURL=style.css.map */
