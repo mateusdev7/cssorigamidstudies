@@ -43,4 +43,38 @@ img {
 }
 .superinfo-bg .superinfo p, .superinfo-bg .superinfo a {
   margin: 0 10px 10px 10px;
+}
+
+.menu-bg {
+  background: #2c70ff;
+}
+.menu-bg .menu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.menu-bg .menu a {
+  color: white;
+}
+.menu-bg .menu .menu-logo a {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.menu-bg .menu .menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-bg .menu .menu-nav a {
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
+}
+.menu-bg .menu .menu-nav a:hover {
+  color: #122ab2;
+  transition: 0.3s;
 }/*# sourceMappingURL=style.css.map */
