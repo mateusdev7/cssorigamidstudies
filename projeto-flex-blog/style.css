@@ -77,4 +77,44 @@ img {
 .menu-bg .menu .menu-nav a:hover {
   color: #122ab2;
   transition: 0.3s;
+}
+
+.introducao {
+  font-size: 3rem;
+  line-height: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+
+.sobre {
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sobre .sobre-info {
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 300px;
+  margin: 0 10px;
+}
+.sobre .sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.sobre .sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+.sobre .sobre-img {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 160px;
+  margin: 0 10px;
 }/*# sourceMappingURL=style.css.map */
