@@ -1,4 +1,10 @@
-body, h1, h2, p, ul, li, a {
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
   margin: 0px;
   padding: 0px;
 }
@@ -259,17 +265,93 @@ img {
   height: 30px;
   margin-right: 10px;
 }
-.qualidade .qualidade-item:nth-of-type(3n+1) h2::before {
+.qualidade .qualidade-item:nth-of-type(3n + 1) h2::before {
   background: #ae81ff;
 }
-.qualidade .qualidade-item:nth-of-type(3n+2) h2::before {
+.qualidade .qualidade-item:nth-of-type(3n + 2) h2::before {
   background: #f9265e;
 }
-.qualidade .qualidade-item:nth-of-type(3n+3) h2::before {
+.qualidade .qualidade-item:nth-of-type(3n + 3) h2::before {
   background: #66d9eb;
 }
 .qualidade .qualidade-item p {
   font-size: 1.25em;
   line-height: 1.4;
   color: #7c7c7c;
+}
+
+.newsletter {
+  background: #f7f7f7;
+  padding: 60px calc((100% - 960px) / 2);
+  display: flex;
+  flex-wrap: wrap;
+}
+.newsletter .newsletter-info {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 240px;
+  margin: 0 10px;
+}
+.newsletter .newsletter-info h1 {
+  font-size: 3em;
+  color: #a4a4a4;
+}
+.newsletter .newsletter-info p {
+  font-size: 1.25em;
+  font-style: italic;
+  max-width: 230px;
+  color: #7c7c7c;
+  margin-bottom: 10px;
+}
+.newsletter .newsletter-form {
+  flex: 2 1 260px;
+  margin: 0 10px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.newsletter .newsletter-form input {
+  flex: 3 1 260px;
+  font-size: 1.25em;
+  color: #7c7c7c;
+  font-style: italic;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  border: 4px solid #2c70ff;
+  background: transparent;
+  padding: 15px 10px;
+  margin: 0px;
+  border-radius: 0px;
+}
+.newsletter .newsletter-form button {
+  flex: 1 1 260px;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #2c70ff;
+  color: white;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+  border: 0px;
+  padding: 15px 10px;
+}
+
+@media (max-width: 600px) {
+  .newsletter .newsletter-form button {
+    font-size: 1.5em;
+  }
+}
+.footer {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2c70ff;
+}
+.footer p {
+  flex: 1;
+  text-align: center;
+  color: #122ab2;
+  font-size: 1.25em;
 }/*# sourceMappingURL=style.css.map */
